@@ -1,0 +1,195 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+
+.topright
+{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+
+
+}
+#head2{
+margin-bottom:  15px;
+
+}
+#head1{
+margin-bottom:  -10px;
+
+}
+
+.contain{
+    color: white;
+    font-size: 18px;
+    background-image: url(img/lib.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top:-20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+    margin-bottom: 50px;
+
+    height: 605px
+}
+.title{
+  position: relative;
+  left: -4px;
+}
+#inputtitle{
+  position: relative;
+  left:22px;
+}
+#search1{
+  position: relative;
+  left: -20px;
+  color: white;
+}
+
+section#services-area {
+  background-image: url("img/books.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 250px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+}
+.service  h1 {
+  color: #fff;
+  text-transform: capitalize;
+  text-shadow: 2px 2px #aaa;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+.service > p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.h1{
+  font-size: 40px;
+  font-style: italic;
+}
+
+#cont{
+  align-items: center;
+
+}
+
+#Feedback {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("img/bg-2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+
+}
+.contact-content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  text-shadow: 2px 2px #333;
+}
+
+
+input {
+    margin-bottom: 15px;
+}
+.form-control {
+  border: none;
+  background: rgba(242, 242, 242, 0.4);
+}
+
+.form-group button {
+  background: #262628 none repeat scroll 0 0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius:10px;
+  cursor: pointer;
+  transition: background 1s, transform 0.3s;
+}
+
+.form-group button:hover{
+  transform: rotate(360deg);
+}
+
+.search-button{
+  background: #262628 none repeat scroll 0 0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius:10px;
+  cursor: pointer;
+  transition: background 1s, transform 0.3s;
+}
+
+.search-button:hover{
+  transform: rotate(360deg);
+}
+#message{
+  position: relative;
+  left:-100px;
+}
+
+.centered{
+  font-size: 100px
+  color:white;
+  vertical-align:middle;
+}
+.anima{
+   animation-name: slidein;
+   animation-duration: 3s;
+
+}
+@keyframes slidein {
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+/* potrait phone */
+
+/* @media (max-width : 480px) {
+
+  #comment{
+    align:center;
+  } */
+
+
+}
